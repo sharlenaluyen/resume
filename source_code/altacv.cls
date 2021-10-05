@@ -398,9 +398,9 @@
 
 \RequirePackage[backend=biber,style=authoryear,sorting=ydnt]{biblatex}
 %% For removing numbering entirely when using a numeric style
-% \setlength{\bibhang}{1em}
-% \DeclareFieldFormat{labelnumberwidth}{\makebox[\bibhang][l]{\itemmarker}}
-% \setlength{\biblabelsep}{0pt}
+ \setlength{\bibhang}{1em}
+ \DeclareFieldFormat{labelnumberwidth}{\makebox[\bibhang][l]{\itemmarker}}
+ \setlength{\biblabelsep}{0pt}
 \defbibheading{pubtype}{\cvsubsection{#1}}
 \renewcommand{\bibsetup}{\vspace*{-\baselineskip}}
 \AtEveryBibitem{\makebox[\bibhang][l]{\itemmarker}}
